@@ -1,0 +1,531 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An elegy on the death of Her Late Sacred Majesty Mary the Second, Queen of England, &amp;c. who dyed December 28th, 1694 / by J. L. R. of S.</title>
+            <author>J. L. R., of S.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1695</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 17 KB of XML-encoded text transcribed from 7 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A58164</idno>
+            <idno type="STC">Wing R39</idno>
+            <idno type="STC">ESTC R32262</idno>
+            <idno type="EEBO-CITATION">12601688</idno>
+            <idno type="OCLC">ocm 12601688</idno>
+            <idno type="VID">64191</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A58164)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 64191)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1534:5)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An elegy on the death of Her Late Sacred Majesty Mary the Second, Queen of England, &amp;c. who dyed December 28th, 1694 / by J. L. R. of S.</title>
+                  <author>J. L. R., of S.</author>
+               </titleStmt>
+               <extent>12 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for John White for Francis Hildyard, book-seller ...,</publisher>
+                  <pubPlace>York :</pubPlace>
+                  <date>1695.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Reproduction of original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Mary --  II, --  Queen of England, 1662-1694 --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-06</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2009-06</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:64191:1"/>
+            <pb facs="tcp:64191:1"/>
+            <p>AN ELEGY: ON THE Death of Her late SACRED MAJESTY <hi>MARY</hi> THE Second, Queen of England, <hi>&amp;c.</hi> Who Dyed <hi>December,</hi> 28<hi rend="sup">th.</hi> 1694.</p>
+            <p>By <hi>J. L. R.</hi> of <hi>S.</hi>
+            </p>
+            <p>
+               <hi>YORK,</hi> Printed by <hi>John White,</hi> for <hi>Francis Hildyard,</hi> Book-Seller, at the Bible in <hi>Stone-Gate,</hi> 1695.</p>
+         </div>
+         <div type="imprimatur">
+            <pb facs="tcp:64191:2"/>
+            <p>Imprimatur.</p>
+            <closer>
+               <signed>
+                  <hi>Edm. Wickins</hi> R<hi rend="sup">mo.</hi> in Chriſto Patriac D<hi rend="sup">no.</hi> D<hi rend="sup">no.</hi> 
+                  <hi>Johanni.</hi> Archiepiſc. <hi>Ebor.</hi> à Sacris. Dom.</signed>
+               <dateline>
+                  <date>Apr. 19, 1695.</date>
+               </dateline>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="elegy">
+            <pb n="3" facs="tcp:64191:2"/>
+            <head>AN ELEGY, on Queen <hi>MARY</hi> THE Second, Queen of <hi>England,</hi> &amp;c.</head>
+            <lg>
+               <l>HERE, Muſe, thy ſelfe into a <hi>Veſtal</hi> turn,</l>
+               <l>Such Fires alone ſhine in this Sacred urn,</l>
+               <l>Reſtrain thy lighter Fancy, as 'tis meet,</l>
+               <l>The ground's too ſacred for unhallow'd Feet.</l>
+               <l>But here an Iſle heav'd from the deep we ſee,</l>
+               <l>That it might ſacred to its Patron bee,</l>
+               <l>
+                  <hi>Another Delos.</hi>
+               </l>
+               <l>Hence 'th muſes humbly beg, they ma'owne the hand</l>
+               <l>By which th'ave power to weep, by which they ſtand</l>
+               <l>The <hi>Houſe of Commons and the houſe of Peeres.</hi>
+               </l>
+               <l>Contend no Priv'ledge now but that of teares.</l>
+               <l>To weep is now become the <hi>Subiects Right,</hi>
+               </l>
+               <l>'Twere <hi>Arbitrary Power</hi> for to deny't,</l>
+            </lg>
+            <lg>
+               <l>The Rev'rend Snows from Miter'd heads diſtill</l>
+               <l>In teares, Like dews from of <hi>Mount Sions</hi> hill,</l>
+               <l>Which make the inferiour valleys fruitfull ſtill.</l>
+            </lg>
+            <lg>
+               <l>Nor is this greife within our Seas confin'd,</l>
+               <l>
+                  <hi>Spaine, Germany and Holland</hi> too are joyn'd.</l>
+               <l>Confederates in woe.</l>
+               <l>When <hi>Alexander</hi> ſaw <hi>Darius</hi> dead,</l>
+               <l>Not one inſulting or proud word he ſaid,</l>
+            </lg>
+            <lg>
+               <pb n="4" facs="tcp:64191:3"/>
+               <l>But with a gen'rous hand did nobly throw</l>
+               <l>His Royal mantle o're his Vanquiſh'd foe.</l>
+               <l>More Royall ſtill, becauſe employed Soe.</l>
+            </lg>
+            <lg>
+               <l>She fell not, <hi>France,</hi> by any power of Thine,</l>
+               <l>Our <hi>Royall Oake</hi> yeeldes only to the ſtroke divine.</l>
+               <l>Inſult not then: but let Thy <hi>Lillys</hi> come,</l>
+               <l>Joyn'd with our <hi>Roſes,</hi> to ſpread o're her tomb.</l>
+               <l>Shame! That the <hi>Moſt Chriſtian King</hi> ſhould bafled be</l>
+               <l>By Pagans thus in generoſity.</l>
+               <l>Th' old Chaos now returns, a delug'd world,</l>
+               <l>All things int' a common confuſion hurl'd,</l>
+               <l>Promiſcuous greife; No firmament appears</l>
+               <l>Dividing th' <hi>
+                     <g ref="char:V">Ʋ</g>pper</hi> from the <hi>Lower teares.</hi>
+               </l>
+               <l>Her funerall Pomp thro 'th liquid Streets did paſſe,</l>
+               <l>(All Eyes ſeem'd ſuch) as if thro' <hi>Seas of Glaſſe,</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Thus, th' <hi>Iſraelitiſh Hoſt,</hi> at Gods command,</l>
+               <l>Thro the Red ſea did goe, on either hand</l>
+               <l>Whilſt th' briney Floods, like Chryſtal walls, did ſtand</l>
+            </lg>
+            <lg>
+               <l>Oh! That the nation could be rated ſoe,</l>
+               <l>That each might bear 'is proportion of the woe,</l>
+               <l>Stupendious greife! How like our Souls, thou art</l>
+               <l>Whole in the whole, and whole in every part.<note place="margin">
+                     <hi>Ariſtotles</hi> opini<g ref="char:EOLhyphen"/>on of the Soul.</note>
+               </l>
+               <l>Our <hi>Ramah</hi> now doth Solemne mourning keep.</l>
+               <l>For us not <hi>Rachel,</hi> we for <hi>Rachel</hi> weep,</l>
+               <l>England is now a <hi>Bacah,</hi> Land of woe</l>
+               <l>A land of fountaines, tears doe make it ſoe.</l>
+               <l>But oh the horrour of that Royall floud,</l>
+               <l>Of greife! Next that which once wept drops of blood:</l>
+               <l>Here draw the Curtaines! Mortalls, diſtance keep,</l>
+               <l>Approach not near, where Majeſty doth weep,</l>
+               <l>Tears are moſt ſtrong and awfull, when cloſe kept,</l>
+               <l>
+                  <hi>Peter went out, when bitterly he wept.</hi>
+                  <note place="margin">Luc. 22.26.</note>
+               </l>
+            </lg>
+            <pb n="5" facs="tcp:64191:3"/>
+            <lg>
+               <l>Such mutuall loue did th' one to'th other tye,</l>
+               <l>In him ſhe liues, in her he Seem'd to dye.</l>
+               <l>What Divine Myſterys of State we See,</l>
+               <l>One Single Soveraigne in Dualitye.</l>
+               <l>Some Kings doe make it their ambition.</l>
+               <l>Ours counts it th' greateſt Croſſe, to rule alone.</l>
+               <l>Thus God at firſt created two great Lights,</l>
+               <l>The one to rule the day, th' other the nights:</l>
+               <l>But theſe of ours ſhone with an equall ray,</l>
+               <l>The night, if any, well might paſſe for day:</l>
+               <l>Or if the <hi>Shechinah</hi> did ſometimes ſhine.</l>
+               <l>And ſometimes dark appear, t'was ſtill divine.</l>
+            </lg>
+            <lg>
+               <l>In her a perfect Scheme of heav'n we ſee,</l>
+               <l>Beauty without, within all pietye.</l>
+               <l>Whilſt <hi>York and Lancaſter</hi> in Beautys feild.</l>
+               <l>Contend, they both to 'th <hi>Purple Roſe</hi> muſt yeeld<note place="margin">Small Pox.</note>
+               </l>
+               <l>But with ſuch ſweetneſs ſhe reſign'd her breath</l>
+               <l>T'would make us almoſt fall in love with death.</l>
+               <l>Strangers would not beleeue it, ſo to be,</l>
+               <l>Seeing all about her look more dead, than ſhe,</l>
+               <l>She did not Seeme to dye, but gently paſſe.</l>
+               <l>From hence, like <hi>Enoch,</hi> who tranſlated was,</l>
+               <l>Only her body ſhe did leave behind,</l>
+               <l>(All that was Mortall, to the Earth conſign'd)</l>
+               <l>This to the care of her Dear Lord ſhe left,</l>
+               <l>Of all, but th' <hi>Royall Mantle,</hi> now bereaft,</l>
+               <l>Thus by Survivourſhip he doth inherit,</l>
+               <l>A double portion of her heav'n-borne ſpirit.</l>
+               <l>Divinely thus ſhe ends the former yeare,</l>
+               <l>Enters thoſe ſcenes, where all things new appeare,</l>
+               <l>But heav'n perhaps not new to her did ſeem,</l>
+               <pb n="6" facs="tcp:64191:4"/>
+               <l>Where always had her Converſation beene.</l>
+               <l>Strange Paradox this! Vertuous hypocriſy;</l>
+               <l>She was more pious, then ſhe ſeem'd to be.</l>
+               <l>Devotion was moſt practis'd, when by none</l>
+               <l>T' was Seene, but only by th' <hi>All. Seeing one:</hi>
+               </l>
+               <l>Like to that fire, which in ſome ſacred vrnes</l>
+               <l>Expires, when open'd; Cloſd, more ſtrongly burnes.</l>
+               <l>What mutual gifts 'twixt heav'n and earth now tend?</l>
+               <l>The heav'ns a God, a Goddeſſe th' Earth doth ſend.</l>
+            </lg>
+            <lg>
+               <l>When equall Sins for equall doome did call,</l>
+               <l>(And fire may juſtly on our Citys fall)</l>
+               <l>She not. like <hi>Lot,</hi> to <hi>little Zoar</hi> flyes,</l>
+               <l>But Scales the higheſt Mountaines of the Skyes.</l>
+               <l>Such ſacred Violence heav'n it ſelfe approves,</l>
+               <l>Triumphs when vanquiſh'd, and its Conquerour loves:</l>
+            </lg>
+            <lg>
+               <l>And if that heav'n our Citys pleaſe to ſpare.</l>
+               <l>We muſt impute it rather to her prayer.</l>
+               <l>Than to the number of the <hi>Pious</hi> there.</l>
+            </lg>
+            <lg>
+               <l>When <hi>Moſes</hi> on that great deſign was ſent,</l>
+               <l>Joyn'd in Commiſſion, <hi>Aaron</hi> alſo went,</l>
+               <l>Thus when our Queen her <hi>heav'nly Progreſſe</hi> goes,</l>
+               <l>Our* <hi>Aaron</hi> too his due attendance ſhowes.<note place="margin">
+                     <hi>John,</hi> late Lord Arch B. of <hi>Cant.</hi>
+                  </note>
+               </l>
+               <l>Like <hi>John the Baptiſt,</hi> he prepares the way,</l>
+               <l>Thus angells did attend the <hi>Shechinah.</hi>
+               </l>
+               <l>What fates muſt we expect, when th' Lord of Hoſts</l>
+               <l>Calls in theſe <hi>Flaggs of Peace,</hi> thoſe <hi>whiter Ghoſts,</hi>
+               </l>
+               <l>And in that face, where Sweetneſs only lay,</l>
+               <l>Doth his <hi>Red Flag</hi> of angry war diſplay?</l>
+            </lg>
+            <lg>
+               <l>To'th Kingdome ſhe did ſtill her aid afford,</l>
+               <l>Or in her Cloſet, or at'th Councill Board.</l>
+               <pb n="7" facs="tcp:64191:4"/>
+               <l>Only we knew not, whether to her cares.</l>
+               <l>We ow'd out ſafe'ty more, or to her prayers:</l>
+               <l>Thus <hi>Iſrael</hi> good or bad ſucceſſe did ſhare,</l>
+               <l>As <hi>Moſes's</hi> hands were lifted up in prayer.</l>
+               <l>Pious and prudent; wife, but from above,</l>
+               <l>The <hi>Serpent</hi> never Eating up the <hi>dove.</hi>
+               </l>
+               <l>Reaſons of ſtate ſhe knew, yet practis'd none.</l>
+               <l>But what were founded in religion.</l>
+               <l>Her Councill, tho' in things of great'ſt concern,</l>
+               <l>Came not t' adviſe her, but of her to learne.</l>
+               <l>Kings from her Actions now their Rules will draw,</l>
+               <l>As from their great <hi>Juſtiniana's</hi> law.</l>
+               <l>Perhaps the only ſhe, whom men confeſſe</l>
+               <l>That Preſence did make great, and abſence leſſe.</l>
+            </lg>
+            <lg>
+               <l>If Queens of this our age as wiſe had beene,</l>
+               <l>As that of <hi>Sheba,</hi> we ſuch Gueſts had ſeene,</l>
+               <l>Paying ſuch frequent Viſits to our <hi>Northerne Queene.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Perfection only from your ſex muſt grow,</l>
+               <l>Th' world was not perfect, till that made it ſoe.</l>
+               <l>A Princely Meen ioyn'd with an humble dreſſe.</l>
+               <l>A ſtrange Majeſtick Greatneſſe did expreſſe.</l>
+               <l>Not <hi>Solomon</hi> more glorys did diſpenſe</l>
+               <l>Than ſhe, cladin her native Country's Innocence.</l>
+               <l>Hence will our Sages ſtill more learn'd appeare,</l>
+               <l>The more they underſtand their loſſes here.</l>
+               <l>God in Six days from the firſt Chaos brought</l>
+               <l>This glorious fabrick, by his wiſdome wrought,</l>
+               <l>Thus ſhe ſix Yeares in the like cares has ſpent,</l>
+               <l>In regulateing th' Engliſh goverment.</l>
+               <l>Such wonders once by <hi>Moſes's Rod</hi> were wrought</l>
+               <l>When he the <hi>Iſraelites</hi> out of <hi>Egypt</hi> brought.</l>
+               <pb n="8" facs="tcp:64191:5"/>
+               <l>The State reform'd, all greiveances redreſs'd,</l>
+               <l>This is her <hi>Sabbath,</hi> and her <hi>yeare of rest.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>She was the <hi>Doue,</hi> ſent to a Forraigne land.</l>
+               <l>Brought back an <hi>Orange-Branch,</hi> at Gods command,</l>
+               <l>A ſigne of Peace or victory to our Brittiſh ſtrand.</l>
+            </lg>
+            <lg>
+               <l>Like <hi>Joſeph,</hi> when in power abroad, ſhe well</l>
+               <l>Conſults the ſafety of our <hi>Iſrael,</hi>
+               </l>
+               <l>Belov'd abroad, and honoured at home,</l>
+               <l>Bleſſings, which rarely ev'n <hi>to Prophts</hi> come,</l>
+               <l>The <hi>Belgick Provinces</hi> in nothing were</l>
+               <l>
+                  <hi>Vnited</hi> more, than in their loue to her.</l>
+               <l>They there own <hi>Heptarchy</hi> did diſapproue,<note place="margin">Seven united. Provinces,</note>
+               </l>
+               <l>Diſſolv'd into a Monarchy of Love,</l>
+               <l>In her we'th vertues, without th' vices, ſee</l>
+               <l>Both of a <hi>Common-wealth</hi> and <hi>Monarchy.</hi>
+               </l>
+               <l>
+                  <hi>William, that Eaſterne Sage</hi> came from afar,</l>
+               <l>Lead by the guidance of an <hi>Engliſh ſtar,</hi>
+               </l>
+               <l>Where haveing made his Preſents,</l>
+               <l>
+                  <hi>Gold and Arabian Myrh</hi> are meaner things,</l>
+               <l>Theſe to each other are 'th <hi>fit'ſt Offerings,</hi>
+               </l>
+               <l>Thus worſhipping, he did ſuccesfull prove,</l>
+               <l>Carrys away the obiect of his loue.</l>
+               <l>But <hi>England</hi> could not long her abſence beare,</l>
+               <l>Starrs ſhine moſt glorious in their native Sphere;</l>
+               <l>Thus <hi>Providence</hi> by theſe removealls meant,</l>
+               <l>By Sev'rall Schooles as't were of goverment,</l>
+            </lg>
+            <lg>
+               <l>To fit her for a Throne of higher fame,</l>
+               <l>Next to the <hi>Bleſſed Lady</hi> of that name,</l>
+               <l>She was the Firſt, the <hi>Second</hi> ours became.</l>
+            </lg>
+            <pb n="9" facs="tcp:64191:5"/>
+            <lg>
+               <l>T'was her peculiar glory, hers alone,</l>
+               <l>At once to merit, and refuſe a throne,</l>
+               <l>Vntill ſhe thought it duty to receiue.</l>
+               <l>VVith reverence, what heav'n thus Seem'd to give.</l>
+               <l>With th' ſame reluctance ſtill ſhe enter'd on.</l>
+               <l>The Goverment, when her Dear Lord was gone:</l>
+               <l>But nothing with more joy ſhe did reſtore,</l>
+               <l>Vnleſſe perhaps ſhe left this life with more.</l>
+            </lg>
+            <lg>
+               <l>Now the poore widdows, only rich in teares,</l>
+               <l>(And he moſt Pompous is, who thus appeares.)</l>
+               <l>Caſt their <hi>two mites,</hi> two weeping eyes they have,</l>
+               <l>To'th common Treaſury of greife, her grave.</l>
+               <l>Poor Orphans thus to greater ſtraits are put,</l>
+               <l>For heaven now has their <hi>Exchequer</hi> ſhut.</l>
+               <l>In other things the law did bound her will,</l>
+               <l>Only her <hi>Charity</hi> was boundleſſe ſtill;</l>
+               <l>From 'th King, her Second ſelfe, t'was ſometimes hid,</l>
+               <l>Her left hand knew not what the right hand did,</l>
+               <l>
+                  <hi>Lazarus at Dives gate</hi> in vaine implores,</l>
+               <l>Only the kinder dogs did lick his ſores:</l>
+               <l>But t'was her great Prerogatiue to ſaue.</l>
+               <l>The loſt, and cure the wounds, which fortune gave.</l>
+               <l>
+                  <hi>Betheſda</hi> only cur'd the firſt that came:</l>
+               <l>Her healing charity was ſtill the ſame</l>
+               <l>To all; thus to the laſt the <hi>Lord</hi> gave pay<note place="margin">Mat. 20.8.</note>
+               </l>
+               <l>Equall to him, who bore the heat o'th day.</l>
+               <l>The <hi>Church</hi> and <hi>ſtate</hi> her only Children were.</l>
+               <l>Our <hi>Nurſing. Mother</hi> plac'd her thoughts only here.</l>
+               <l>Nor are they now, like Orphans, left at large,</l>
+               <l>
+                  <hi>Great William</hi> ſtill doth undertake the Charge,</l>
+               <l>
+                  <hi>Albion</hi> regaines its luſtre, and doth ſtand</l>
+               <pb n="10" facs="tcp:64191:6"/>
+               <l>Great Arbiter of <hi>Europe,</hi> Aarons wand</l>
+               <l>Bloſſomes; <hi>Religion</hi> and the <hi>Laws</hi> we ſee</l>
+               <l>Once more ſupporters of our Monarchy,</l>
+               <l>Her greateſt task of vertue ſeem'd to be,</l>
+               <l>'Mongſt all thoſe glorys</l>
+               <l>Still to preſerue that great humility.</l>
+               <l>
+                  <hi>Where</hi> ere ſhe was, ſhe ſtill was on a throne,</l>
+               <l>Her preſence either found, or made it one.</l>
+               <l>Yet ſtill ſhe humble was; none ere did know</l>
+               <l>At once a ſoule ſo high, a ſoul ſo low.</l>
+               <l>When liueing, none durſt her juſt prayſes Spread,</l>
+               <l>But truth will grant <hi>Repriſealls</hi> on the dead.</l>
+            </lg>
+            <lg>
+               <l>She came A <hi>Propheteſſe,</hi> not to unfold</l>
+               <l>New Truths, but teach us to obſerue the old,</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>T' her owne ſhe</hi> came, there for to carry on</l>
+               <l>That greater work of <hi>Court-Converſion,</hi>
+               </l>
+               <l>A land, they ſay, was almoſt Pagan grown</l>
+            </lg>
+            <lg>
+               <l>No <hi>Holy-water</hi> now at Court appeares</l>
+               <l>(Strange Reformation!) but what flows in teares.</l>
+               <l>
+                  <hi>Truth</hi> and <hi>Smcerity,</hi> things long unknown,</l>
+               <l>Were to the Queen cheife <hi>Maids of Honour</hi> grown</l>
+               <l>The <hi>Sacred Font</hi> doth ſons o'th Church create,</l>
+               <l>But teares <hi>baptize</hi> us now true ſons o'th ſtate.</l>
+               <l>This haeving done, <hi>Ali's finiſh'd now,</hi> ſhe ſaid,</l>
+               <l>Now I <hi>depart in peace,</hi> and bow'd her head.</l>
+            </lg>
+            <lg>
+               <l>What Mary's <hi>box of precious ointment</hi> did</l>
+               <l>T' our <hi>Saviour's</hi> body never can be hid;</l>
+               <l>Its owne perfumes did ſo <hi>Embalme</hi> the thing.</l>
+               <l>Thus ſhall your name in future ages Spring,</l>
+               <pb n="11" facs="tcp:64191:6"/>
+               <l>Where ere our <hi>Engliſh Annalls</hi> ſhall be read,</l>
+               <l>There ſhall your vertues their Sweet odours ſpread,</l>
+               <l>Here fix th' <hi>Herculean Pillars!</hi> ſince in you</l>
+               <l>We ſee what <hi>nature</hi> joyn'd with <hi>Grace</hi> can doe.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>To the King,</head>
+            <lg>
+               <l>What miracles in <hi>England</hi> ſtill appeares.</l>
+               <l>Th' one <hi>Pole,</hi> on which did move our <hi>Engliſh Sphere,</hi>
+               </l>
+               <l>Is quite remou'd: and yet no ſhocks of ſtate,</l>
+               <l>The <hi>Engliſh Atlas</hi> ſtill beares up the weight.</l>
+               <l>What ever proſperous to our realme has beene</l>
+               <l>In ſeuerall Reignes, in you alone is ſeen.</l>
+               <l>An <hi>Eighty Eight</hi> you cauſe us to remember,</l>
+               <l>Another happy <hi>fifth day of November.</hi>
+               </l>
+               <l>Goe on, <hi>Great Prince,</hi> to fill our <hi>Calendar.</hi>
+               </l>
+               <l>With ſuch auſpicious days of peace, or of ſucceſfull war.</l>
+               <l>You, Like that <hi>Cloud,</hi> which interpoſd, a <hi>ſkreen</hi>
+               </l>
+               <l>The <hi>Egyptians</hi> and the <hi>Iſrae'lites</hi> betweene,</l>
+            </lg>
+            <lg>
+               <l>Tho' you Serene and calme appeare at home,</l>
+               <l>Yet when to a forraigne feild of war you come,</l>
+               <l>Then the black ſide o'th Cloud</l>
+               <l>Teemes nought, but thunder, from its pregnant womb</l>
+            </lg>
+            <lg>
+               <l>Suns ſetting in a watry Cloud, they ſay</l>
+               <l>Portends a ſtorme impending; and may they</l>
+               <l>Who here refuſe to joyne their pious raine,</l>
+               <l>Feele the feirce fury of that Hurricane.</l>
+               <l>Beware, <hi>proud France,</hi> how thou doſt meet a foe</l>
+               <l>Doubly enragd</l>
+               <pb n="12" facs="tcp:64191:7"/>
+               <l>With thy unjuſt rejoycing, his juſt woe.</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eaſt he thy Citys into Aſhes turne,</l>
+               <l>As a <hi>burnt Offering</hi> at her injur'd vrne.</l>
+               <l>
+                  <hi>Epheſtion</hi> dead, thus Alexanders hoſt,</l>
+               <l>Did Sacrifice whole lands to <hi>Deare Epheſtion's</hi> Ghoſt.</l>
+               <l>Leaſt thy <hi>proud fleet,</hi> with all its <hi>prouder names,</hi>
+               </l>
+               <l>We offer up once more in funerall <hi>flames;</hi>
+               </l>
+               <l>When <hi>Caeſar</hi> dy'd, thus did a <hi>Comet</hi> riſe,</l>
+               <l>A direfull omen to his Enemyes.</l>
+            </lg>
+            <lg>
+               <l>Tremble, <hi>Proud France.</hi> th' heavens will not deny't,</l>
+               <l>Our <hi>Queene</hi> did pray, for what our <hi>King</hi> doth fight.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:64191:7"/>
+         </div>
+      </body>
+   </text>
+</TEI>
